@@ -1,0 +1,21 @@
+# Build artifacts
+db.sqlite
+db.sqlite-journal
+db.sqlite-wal
+db.sqlite-shm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.python-version
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
