@@ -10,11 +10,11 @@ I had Claude generate me a relational schema design challenge for a university c
 
 | File | Role |
 |---|---|
-| [`brief.md`](brief.md) | The scenario, as originally written |
+| [`brief.md`](notes/brief.md) | The scenario, as originally written |
 | [`schema.sql`](schema.sql) | The SQL solution — source of truth for the data model |
 | [`database.py`](database.py) | Flat persistence dataclasses, 1:1 with tables |
 | [`domain.py`](domain.py) | Rich domain-layer objects with behavior |
-| [`writeup.md`](writeup.md) | Lessons learned, organized by concept |
+| [`writeup.md`](notes/writeup.md) | Lessons learned, organized by concept |
 
 Read in roughly that order. The writeup makes the most sense after seeing both the schema and the two model layers side by side.
 
